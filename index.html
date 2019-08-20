@@ -1,31 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    .portfolio-container {
-        margin-right: auto;
-        margin-left: auto; 
-        max-width: 1012px;
-       font-family: SFMono-Regular;
-    }
+/* Style the body */
+body {
+  font-family: SFMono-Regular;
+  margin-right: auto;
+  margin-left: auto; 
+  max-width: 1012px;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 45px;
+  text-align: center;
+  background: #CABDBA;
+  color: white;
+  font-size: 27px;
+}
+
+/* Page Content */
+.content {
+padding:15px;
+text-align: justify;
+}
+
+
 </style>
-<div class="portfolio-container">
-    <div align = "justify">
-    <h1 style="font-family:SFMono-Regular;">Data Science Portfolio by Amanda Strack</h1>
-    <p>This portfolio is a compilation of notebooks that explore different machine learning and data analysis techniques. Projects are executed both in Python and R.</p>
+</head>
+<body>
+
+<div class="header">
+  <h1>Data Science Portfolio</h1>
+  <p>By Amanda Strack</p>
+</div>
+
+<div class="content">
+    <p>This portfolio is a compilation of notebooks that explore different machine learning and data analysis techniques. Projects are executed both in Python and R.</p>  
     <h2>Springboard Capstone Projects</h2>
-    <h3>Playlist Creation Using Audio Features (Python)</h3>
+
+    <h3>Playlist Creation Using Audio Features <i>(Python)</i></h3>
     <a href="https://github.com/amandastrack/Capstone-Project-I-">GitHub</a>
     <p> In this project, I use audio features extracted from the Spotify API to classify songs into a playlist category. Machine learning techniques utilized include Random Forests, SVM, and XGBoost. I also use an ensembling method of the three models in the final tuning of the model. 
-    <h2>Exploratory Data Analysis</h2>
-    <h3> Mobile App Store Analysis (R)</h3>
+   <h2>Exploratory Data Analysis</h2>
+    <h3> Mobile App Store Analysis <i>(R)</i></h3>
     <a href="https://github.com/amandastrack/mobileAppStoreAnalysis/blob/master/Mobile%20App%20Store.ipynb">GitHub</a>
     <p>This Kaggle dataset contains more than 7000 Apple iOS mobile application details. I explored the app statistics across different genres and how the app details contribute to user ratings. </p>
     
     
-    <h3>Dr. Semmelweis and the Discovery of Handwashing (R)</h3>
+    <h3>Dr. Semmelweis and the Discovery of Handwashing <i>(R)</i></h3>
     <a href="https://github.com/amandastrack/discoveryOfHandwashing/blob/master/notebook.ipynb">GitHub</a>
     <p>In this Datacamp.com project, I analyzed the data behind the breakthrough discovery of handwashing in 1847. I used the basics of Tidyverse (dplyr, ggplot2) to manipulate, analyze and visualize the data. </p>
-    <h3> Who is Drunk and When in Ames, Iowa? (R)</h3>
+    <h3> Who is Drunk and When in Ames, Iowa? <i>(R)</i></h3>
     <a href="https://github.com/amandastrack/whoIsDrunkandWhenInAmesIowa/blob/master/notebook.ipynb">GitHub</a>
     <p>This is another project from Datacamp.com. The data contains information on breath alcohol tests in Ames, Iowa, (home of Iowa State University) from 2013-2017. I use tidyverse to explore patterns of breathalyzer tests in this college town. </p>
 
 </div>
-</div>
+
+</body>
+</html>
